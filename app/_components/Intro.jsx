@@ -16,7 +16,7 @@ const Intro = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: -100 }}
                         transition={{ duration: 0.5 }}
-                        className='text-3xl font-bold my-2'>Hi, I'm Anudin kk
+                        className='text-2xl md:text-3xl font-bold my-2'>Hi, I'm Anudin kk
                     </motion.h1>
                     {/* <span className='bg-gradient-to-r from-blue-600 via-slate-400 to-purple-500 bg-clip-text text-3xl font-semibold
                     tracking-tight text-transparent'>

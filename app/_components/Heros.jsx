@@ -17,12 +17,12 @@ const Heros = () => {
             </div>
             <div className='absolute top-0 right-0 bottom-0 left-0 flex flex-col justify-center items-center'>
                 <div className=''>
-                    <h3 className='text-[30px] text-blue-500 font-semibold '> Full Stack Developer</h3>
+                    <h3 className='md:text-[30px] text-[15px] text-blue-500 font-semibold '> Full Stack Developer</h3>
                 </div>
                 <div>
-                    <h1 className='text-[80px] text-blue-500 font-extrabold w-full flex items-center justify-center uppercase'>
+                    <h1 className='md:text-[80px] text-[40px] text-blue-500 font-extrabold w-full flex items-center justify-center uppercase'>
                         Protfolio
-                        <span className='rotate-90 text-[30px] text-blue-300 leading-tight'>{getCurrentYear()}</span>
+                        <span className='rotate-90 md:text-[30px] text-[20px] text-blue-300 leading-tight'>{getCurrentYear()}</span>
                     </h1>
                 </div>
 
