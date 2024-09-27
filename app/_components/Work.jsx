@@ -7,13 +7,13 @@ import Link from 'next/link'
 const Work = () => {
 
   const [Projects, setProjects] = useState([]);
-  
+
   useEffect(() => {
     setProjects(PROJECTS);
   }, []);
 
   return (
-    <div className='my-10 px-5 md:px-0 lg:px-0'>
+    <div className='my-10 px-5 md:px-0 lg:px-0 min-h-[100vh]'>
       <div className='px-2 flex justify-between'>
         <div>
           <h2 className='text-4xl font-extrabold'>MY WORKS</h2>
