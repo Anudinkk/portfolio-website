@@ -7,6 +7,7 @@ import Link from 'next/link'
 const Work = () => {
 
   const [Projects, setProjects] = useState([]);
+  
   useEffect(() => {
     setProjects(PROJECTS);
   }, []);
@@ -21,8 +22,8 @@ const Work = () => {
         <div>
           <Link href={`/works`}> <h6 className='text-blue-500 cursor-pointer font-semibold'>View All</h6> </Link>
         </div>
-
       </div>
+
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10'>
         {Projects.map((item, index) => index < 3 && (
           <Cards data={item} key={index} />

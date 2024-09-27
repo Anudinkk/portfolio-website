@@ -1,3 +1,4 @@
+import { AlignJustify } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -31,8 +32,11 @@ const Header = () => {
                 </ul>
             </div>
             <div>
-
+                <div className='sm:block  md:hidden'>
+                    <AlignJustify className='text-black' />
+                </div>
             </div>
+
         </div>
     )
 }
