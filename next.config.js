@@ -4,15 +4,9 @@ const nextConfig = {
   basePath: '/portfolio-website',
   assetPrefix: '/portfolio-website/',
   images: {
-    unoptimized: true
-  }
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
 
-
-// const nextConfig = {
-//     reactStrictMode: false,
-// };
-
-// export default nextConfig;
