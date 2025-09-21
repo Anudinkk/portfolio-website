@@ -29,7 +29,7 @@ export const PROJECTS = [
   {
     id: 1,
     title: "Bike Sales Data Analysis",
-    image: "/bike-sales-report.png", // Replace with your actual image path
+    image: "/portfolio-website/bike-sales-report.png", // Replace with your actual image path
     link: "https://github.com/Anudinkk/Bike-Sales_Report.git",
     description:
       "An Excel-based analysis of bike sales data, identifying key purchasing trends related to customer demographics, income, and commute distance.",
@@ -38,7 +38,7 @@ export const PROJECTS = [
   {
     id: 2,
     title: "Global Financial Insights Dashboard",
-    image: "/financials.png", // Replace with your actual image path
+    image: "/portfolio-website/financials.png", // Replace with your actual image path
     link: "https://github.com/Anudinkk/Financial-Insights-Dashboard", // Replace with your actual project link
     description:
       "An interactive Power BI dashboard analyzing $118.7M in sales to identify key trends in product performance, segment profitability, and seasonal demand.",
@@ -47,7 +47,7 @@ export const PROJECTS = [
   {
     id: 3,
     title: "Telecom Customer Retention Dashboard",
-    image: "/Churn_Report.png", // Replace with your actual image path
+    image: "/portfolio-website/Churn_Report.png", // Replace with your actual image path
     link: "https://github.com/Anudinkk/Telecom-customer-retention-Dashboard", // Replace with your actual project link
     description:
       "A Power BI dashboard analyzing customer churn by tenure, service usage, and payment methods to develop targeted retention strategies.",
@@ -57,7 +57,7 @@ export const PROJECTS = [
    {
     id: 4,
     title: "Library Management System",
-    image: "/mysql.png", // Using a generic database icon as requested
+    image: "/portfolio-website/mysql.png", // Using a generic database icon as requested
     link: "https://github.com/Anudinkk/Library-Management-Sql_Project",
     description:
       "Designed and implemented a relational database in MySQL, authoring complex SQL queries to manage book inventory, employees, and customer data.",
@@ -66,7 +66,7 @@ export const PROJECTS = [
   {
     id: 5,
     title: "Tata Group EV & Business Analysis",
-    image: "/Tata.png", // Replace with your actual image path
+    image: "/portfolio-website/Tata.png", // Replace with your actual image path
     link: "https://github.com/Anudinkk/Comprehensive-Analysis-of-Tata-Group", // Link to Forage program
     description:
       "A comprehensive analysis of Tata Group's performance, focusing on EV owner data to identify trends in battery reliability, model usage, and service effectiveness.",
@@ -75,7 +75,7 @@ export const PROJECTS = [
   {
     id: 6,
     title: "Global COVID-19 Insights Dashboard",
-    image: "/covid.png", // Replace with your actual image path
+    image: "/portfolio-website/covid.png", // Replace with your actual image path
     link: "https://github.com/Anudinkk/Global-Covid-19-Insight-Dashboard", // Replace with your actual project link
     description:
       "A Power BI dashboard analyzing global COVID-19 data, tracking confirmed cases, recoveries, and deaths to visualize the pandemic's impact across WHO regions.",
