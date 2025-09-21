@@ -7,16 +7,19 @@ import React from 'react'
 const Cards = ({ data }) => {
 
     return (
-        <div className='bg-gray-100 rounded-lg p-2' >
-            <Link href={'/details/' + data.id}>
+        <div className='bg-gray-100 dark:bg-gray-800 rounded-lg p-2' >
+            <div>
+                {/* <Link href={'/details/' + data.id}> */}
                 <Image
                     src={data?.image}
                     alt='work-image'
                     width={500}
                     height={500}
-                    className='w-full h-[230px] object-fill cursor-pointer rounded-md '
+                    className='w-full h-[220px] object-fit cursor-pointer rounded-md '
                 />
-            </Link>
+                {/* </Link> */}
+            </div>
+
 
             <div className='p-5 flex items-center justify-between'>
                 <h2>{data?.title}</h2>

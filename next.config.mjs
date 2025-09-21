@@ -1,6 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: false,
+  output: 'export',
+  basePath: '/portfolio-website',
+  assetPrefix: '/portfolio-website/',
+  images: {
+    unoptimized: true
+  }
 };
 
-export default nextConfig;
+module.exports = nextConfig;
+
+
+// const nextConfig = {
+//     reactStrictMode: false,
+// };
+
+// export default nextConfig;

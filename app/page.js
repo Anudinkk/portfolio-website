@@ -1,8 +1,9 @@
+import Contact from "./_components/Contact";
 import Experience from "./_components/Experience";
-import Hero from "./_components/Hero";
 import Heros from "./_components/Heros";
 import Intro from "./_components/Intro";
 import Technologies from "./_components/Technologies";
+import Timeline from "./_components/Timeline";
 import Work from "./_components/Work";
 
 
@@ -14,8 +15,9 @@ export default function Home() {
         <Intro />
         <Technologies />
         <Experience />
+        <Timeline />
         <Work />
-
+        <Contact />
       </div>
     </div>
   );

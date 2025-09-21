@@ -8,20 +8,7 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
+
   {
     year: "2021 - 2022",
     role: "Full Stack Developer",
@@ -41,54 +28,65 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "Doctor Booking Website",
-    image: "/Doctor-website.png",
-    link: "https://doctor-booking-web-by-nextjs.vercel.app",
+    title: "Bike Sales Data Analysis",
+    image: "/bike-sales-report.png", // Replace with your actual image path
+    link: "https://github.com/Anudinkk/Bike-Sales_Report.git",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Next.js", "React", "Tailwind", "Shadcn", "Strapi", "Kinde"],
+      "An Excel-based analysis of bike sales data, identifying key purchasing trends related to customer demographics, income, and commute distance.",
+    technologies: ["Excel", "Data Analysis", "Sales Reporting"],
   },
   {
     id: 2,
-    title: "Expense Tracking Website",
-    image: "/Expense-website.png",
-    link: "https://expense-tracker-blue-phi.vercel.app",
+    title: "Global Financial Insights Dashboard",
+    image: "/financials.png", // Replace with your actual image path
+    link: "https://github.com/Anudinkk/Financial-Insights-Dashboard", // Replace with your actual project link
     description:
-      "A web application developed to help users track and manage their personal expenses, allocate budgets, and analyze spending patterns.",
-    technologies: ["Next.js", "React", "Tailwind", "Shadcn", "Drizzle", "Clerk", "Postgres"],
+      "An interactive Power BI dashboard analyzing $118.7M in sales to identify key trends in product performance, segment profitability, and seasonal demand.",
+    technologies: ["Power BI", "DAX", "Data Visualization", "Financial Analysis"],
   },
   {
     id: 3,
-    title: "E-Commerce Website",
-    image: "/Ecommerce.png",
-    link: "",
+    title: "Telecom Customer Retention Dashboard",
+    image: "/Churn_Report.png", // Replace with your actual image path
+    link: "https://github.com/Anudinkk/Telecom-customer-retention-Dashboard", // Replace with your actual project link
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["React", "Css", "Scss", "Node", "Express", "Mongodb"],
+      "A Power BI dashboard analyzing customer churn by tenure, service usage, and payment methods to develop targeted retention strategies.",
+    technologies: ["Power BI", "Data Analysis", "Customer Segmentation"],
   },
-  {
+  
+   {
     id: 4,
-    title: "Travel Website",
-    image: "/Travel-website.png",
-    link: "https://travel-website-five-blush.vercel.app",
+    title: "Library Management System",
+    image: "/mysql.png", // Using a generic database icon as requested
+    link: "https://github.com/Anudinkk/Library-Management-Sql_Project",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["React", "Css", "Scss", "Javascript"],
+      "Designed and implemented a relational database in MySQL, authoring complex SQL queries to manage book inventory, employees, and customer data.",
+    technologies: ["MySQL", "SQL", "Database Design"],
   },
   {
     id: 5,
-    title: "Uber-Clone Website",
-    image: "/Uber-website.png",
-    link: "https://uber-clone-taupe.vercel.app",
+    title: "Tata Group EV & Business Analysis",
+    image: "/Tata.png", // Replace with your actual image path
+    link: "https://github.com/Anudinkk/Comprehensive-Analysis-of-Tata-Group", // Link to Forage program
     description:
-      "Developed a web application that mimics the functionality of Uber, allowing users to connect source and destination locations for ride-hailing services, and process payments securely.",
-    technologies: ["Next.js", "React", "Tailwind", "Shadcn", "Google-place-api", "Clerk"],
-
+      "A comprehensive analysis of Tata Group's performance, focusing on EV owner data to identify trends in battery reliability, model usage, and service effectiveness.",
+    technologies: ["Power BI", "Data Analysis", "Business Intelligence"],
   },
+  {
+    id: 6,
+    title: "Global COVID-19 Insights Dashboard",
+    image: "/covid.png", // Replace with your actual image path
+    link: "https://github.com/Anudinkk/Global-Covid-19-Insight-Dashboard", // Replace with your actual project link
+    description:
+      "A Power BI dashboard analyzing global COVID-19 data, tracking confirmed cases, recoveries, and deaths to visualize the pandemic's impact across WHO regions.",
+    technologies: ["Power BI", "Public Health Data", "Geospatial Analysis"],
+  },
+  
+ 
 ];
 
 export const CONTACT = {
-  address: "Kozhikode, Kerala, ",
-  phoneNo: "+91 9495486991 ",
-  email: "anudhinkk@gmail.com",
+    address: 'Kozhikode, Kerala',
+    phoneNo: '+91 94954 86991',
+    email: 'anudinkk@gmail.com',
 };
