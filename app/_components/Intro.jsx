@@ -9,7 +9,7 @@ const Intro = () => {
         <div className='border-y-[1px] border-gray-200 pb-12 dark:bg-card'>
             <div className='flex flex-col items-center gap-10 md:flex-row'>
                 <div whileInView={{ opcacity: 1 }}>
-                    <Image src='/I.png' alt='Image' width={300} height={300} className=' h-[300px] object-contain rounded-full ' />
+                    <Image src='/portfolio-website/I.png' alt='Image' width={300} height={300} className=' h-[300px] object-contain rounded-full ' />
                 </div>
                 <div className='px-10 mt-10 w-full'>
                     <motion.h1
