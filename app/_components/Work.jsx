@@ -1,8 +1,8 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import Cards from './Cards'
-import { PROJECTS } from '@/utils/constants'
-import Link from 'next/link'
+import { PROJECTS } from '../../utils/constants'
+// import Link from 'next/link'
 
 const Work = () => {
 

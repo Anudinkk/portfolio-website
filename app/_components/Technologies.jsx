@@ -1,14 +1,11 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion';
-
-// --- WORKING ICONS (We keep these) ---
 import { FaPython } from "react-icons/fa";
 import { TbBrain } from "react-icons/tb";
 import { BsBarChartFill } from "react-icons/bs";
 
-// --- SVG COMPONENTS FOR PROBLEMATIC ICONS ---
-// We define the icons that were causing errors directly here to bypass the import issue.
+
 
 const PowerBiIcon = (props) => (
   <svg {...props} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 1.5v9h9v-9h-9zM13.5 1.5v9h9v-9h-9zM1.5 13.5v9h9v-9h-9zM13.5 13.5v9h9v-9h-9z"/></svg>

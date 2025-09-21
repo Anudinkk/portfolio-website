@@ -1,4 +1,4 @@
-import { CONTACT } from '@/utils/constants'
+import { CONTACT } from '../../utils/constants'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import React from 'react'
 
