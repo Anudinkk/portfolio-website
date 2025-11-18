@@ -15,7 +15,7 @@ const Heros = () => {
             <div className='absolute inset-0 flex flex-col justify-center items-center'>
                 <div>
                     {/* Updated text color for dark mode */}
-                    <h3 className='md:text-[30px] text-[15px] text-blue-500 dark:text-blue-400 font-semibold'> Data Scientist Portfolio </h3>
+                    <h3 className='md:text-[30px] text-[15px] text-blue-500 dark:text-blue-400 font-semibold'> Data Analyst Portfolio </h3>
                 </div>
                 <div>
                     {/* Updated text color for dark mode */}
