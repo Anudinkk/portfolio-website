@@ -7,7 +7,7 @@ const Experience = () => {
 
             <div className='mt-5 relative border-y border-gray-200 p-5 md:px-10 md:flex items-center   gap-10'>
                 <div className='flex items-center'>
-                    <h2 className='font-medium text-gray-600 w-32 dark:text-gray-300'>JUN 2025 - Present</h2>
+                    <h2 className='font-medium text-gray-600 w-32 dark:text-gray-300'>JUN 2025 - NOV 2025</h2>
                 </div>
                 <div className='flex-1 md:px-5'>
                     <h2 className='text-xl font-bold dark:text-blue-500'>Machine Learning Intern - UL Technology Solutions</h2>
